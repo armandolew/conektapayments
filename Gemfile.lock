@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    conektapayments (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    conekta (0.5.4)
+      bundler (~> 1.3)
+      faraday
+      json
+      rake
+      sys-uname
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.10)
+    json (1.8.3)
+    multipart-post (2.0.0)
+    rake (10.4.2)
+    sys-uname (1.0.2)
+      ffi (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.9)
+  conekta
+  conektapayments!
+  rake (~> 10.0)
